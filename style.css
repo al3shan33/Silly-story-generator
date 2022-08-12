@@ -1,0 +1,45 @@
+body {
+    font-family: helvetica, sans-serif;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+  }
+
+  .name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  label {
+    font-weight: bold; 
+    font-size: 24px; 
+  }
+
+  div {
+    padding-bottom: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+  }
+
+  p {
+    background: #e6e6e662;
+    color: #000000;
+    padding: 20px;
+    visibility: hidden;
+    border-radius: 5px;
+  }
+
+  button {
+    background-color: #e6e6e662;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+  }
